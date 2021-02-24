@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #E5E5E5;
+}
+
+.container-logged__tittle {
+  display: flex;
+}
+
+.container-logged {
+
+  max-width: 350px;
+  max-height: 350px;
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  padding: 23px 35px;
+  border: 2px solid rgba(128, 129, 132, 0.3);
+}
+
+.container-logged__tittle__name {
+  margin-left: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.container-logged__tittle__name-welcome{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+ 
+}
+
+.container-logged__tittle__name-text{
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: rgba(17, 17, 17, 0.7);
+  margin-top: -5px;
+  
+}
+
+.container-logged__links{
+  margin-top: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 20px;
+  
+}
+
+.container-logged__links-wrap{
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.link{
+  margin-left: 12px;
+  text-decoration: none;
+  color: rgba(130, 130, 130, 1);
+  font-size: 16px;
+  font-weight: 500;
+  transition: letter-spacing 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.link:hover{
+letter-spacing: 0.5px;
+color: #075F8A;
+
+
+}
